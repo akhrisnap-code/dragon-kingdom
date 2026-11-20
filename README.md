@@ -31,10 +31,10 @@ Kemudian jalankan schema:
 psql -d dragon_kingdom -f backend/database/schema.sql
 ```
 
-## 2. Backend
+## 2. Backend Exspress
 ```bash
-cd backend
-cp .env.example .env
+cd backend express
+server.js
 ```
 Edit `.env`: isi `DATABASE_URL` dan ganti `JWT_SECRET` dengan string acak panjang.
 ```bash
